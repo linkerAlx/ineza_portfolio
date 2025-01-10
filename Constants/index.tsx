@@ -5,23 +5,23 @@ export const Socials = [
       
     },
     {
-      name: "ABOUT",path: "/aboutpage" 
+      name: "ABOUT",path: "/Aboutpage" 
       
     },
     {
-      name: "SKILLS",path: "/skillspage" 
+      name: "SKILLS",path: "/Skillspage" 
       
     },
     {
-      name: "SERVICES",path: "/servicepage"
+      name: "SERVICES",path: "/Servicepage"
       
     },
     {
-      name: "PROJECTS", path: "/portfoliopage"
+      name: "PROJECTS", path: "/Portfoliopage"
       
     },
     {
-      name: "CONTACT-ME", path: "/contactpage"
+      name: "CONTACT-ME", path: "/Contactpage"
       
     },
     
