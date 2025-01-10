@@ -1,3 +1,5 @@
+import 'tailwindcss/tailwind.css';
+import './globals.css';  
 import About from "@/Components/About";
 import Contact from "@/Components/Contact";
 import Footer from "@/Components/Footer";
