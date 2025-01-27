@@ -1,6 +1,6 @@
 import React from "react";
-import ImageSlider from "./ImageSlider"; // Make sure to import the ImageSlider component
-import { aboutDetails } from "@/Constants";
+
+import { aboutDetails, slides } from "@/Constants";
 
 
 const About: React.FC = () => {
@@ -17,7 +17,12 @@ const About: React.FC = () => {
 <div className="flex flex-col lg:flex-row justify-center items-center mb-3">
   {/* Image Slider */}
   <div className="w-full lg:w-auto mb-6 lg:mb-0">
-    <ImageSlider />
+  <img
+          src={slides[0].src} // Use slides[1] or map if you want multiple images
+          alt="About"
+          className="max-w-full h-[500px] rounded-lg shadow-md"
+        />
+
   </div>
 
   {/* Who I Am section */}
