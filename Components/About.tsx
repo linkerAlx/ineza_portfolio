@@ -20,7 +20,7 @@ const About: React.FC = () => {
   <img
           src={slides[0].src} // Use slides[1] or map if you want multiple images
           alt="About"
-          className="max-w-full h-[500px] rounded-lg shadow-md"
+          className="min-w-full h-[400px] rounded-lg shadow-md"
         />
 
   </div>
